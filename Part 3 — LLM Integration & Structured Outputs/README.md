@@ -11,4 +11,4 @@ Required: `OPENROUTER_API_KEY`; optional: `OPENAI_MODEL`.
 5. Pydantic parses the returned JSON. Network, schema, and malformed-response errors are retried three times and never silently accepted.
 6. This standalone demo uses a transparent risk proxy; the dashboard replaces it with Part 2's saved model probability.
 
-Run: python llm_structured.py (default eid set you change your preference --employee-id 1001)
+Run: python llm_structured.py (default empolyee id set, you change your preference --employee-id 1001).
