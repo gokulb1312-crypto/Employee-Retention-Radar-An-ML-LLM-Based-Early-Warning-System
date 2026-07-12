@@ -24,3 +24,13 @@
 2026-07-12 00:11:57,143 INFO event=assessment_completed employee_id=1049 risk_level=medium
 2026-07-12 00:12:25,214 INFO event=assessment_requested employee_id=1190 model_probability_calculated
 2026-07-12 00:12:25,215 INFO event=assessment_completed employee_id=1190 risk_level=low
+2026-07-12 12:14:33,320 INFO event=assessment_requested employee_id=1047 model_probability_calculated
+2026-07-12 12:14:33,323 INFO event=assessment_completed employee_id=1047 risk_level=medium
+2026-07-12 12:15:04,959 INFO event=assessment_requested employee_id=1094 model_probability_calculated
+2026-07-12 12:15:04,960 INFO event=assessment_completed employee_id=1094 risk_level=high
+2026-07-12 12:55:51,516 INFO event=assessment_requested employee_id=1002 model_probability_calculated
+2026-07-12 12:55:51,519 INFO event=assessment_completed employee_id=1002 risk_level=medium
+2026-07-12 16:54:12,834 INFO event=assessment_requested employee_id=1500 model_probability_calculated
+2026-07-12 16:54:12,839 INFO event=assessment_completed employee_id=1500 risk_level=medium
+2026-07-12 17:33:25,325 INFO event=assessment_requested employee_id=1146 model_probability_calculated
+2026-07-12 17:33:25,327 INFO event=assessment_completed employee_id=1146 risk_level=low
