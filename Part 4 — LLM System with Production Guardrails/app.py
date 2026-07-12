@@ -59,3 +59,4 @@ if st.button("Generate retention assessment", type="primary"):
 st.divider()
 st.caption("Guardrails: input validation, minimal LLM data, schema validation, retries/timeouts, rate limiting, and metadata-only logs.")
 
+print(f"Running Streamlit app: streamlit run \"e:\\Employee-Retention-Radar-An-ML-LLM-Based-Early-Warning-System\\Part 4 — LLM System with Production Guardrails\\app.py\"")
