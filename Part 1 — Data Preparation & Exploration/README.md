@@ -1,10 +1,12 @@
 # Part 1 — Data Preparation & Exploration
 
-Runs reproducible cleaning and EDA on the supplied employee-retention data. It creates `outputs/employee_retention_cleaned.csv`, `outputs/summary_statistics.csv`, and committed-ready PNG plots in `plots/`.
+Step 1: Load employee_retention_raw.csv. It has one row per employee and Attrition is the numeric target (1 means the employee left).
+Step 2: Standardise column names, remove duplicate/all-empty rows, convert EmployeeID to an integer, fill numeric gaps with the median, and fill categorical gaps with the most common value. Median is robust to unusually high salaries.
+Step 3: Save the cleaned file to outputs/employee_retention_cleaned.csv. Later parts use this exact version so results are reproducible.
+Step 4: Save summary statistics and four PNG charts. The correlation chart is for exploration only; correlation is not evidence of causation.
+Step 5: Review the plots and output counts before modelling. EmployeeID is retained for lookup in the dashboard but excluded from model features.
 
-```powershell
-python data_prep_eda.py
-```
+Run: python data_prep_eda.py (from this folder) or use the root command in the top-level README.
 
-Dependencies: pandas, matplotlib, seaborn. Cleaning choices and run steps are in `explain.txt`.
-
+Runs reproducible cleaning and EDA on the supplied employee-retention data. 
+It creates `outputs/employee_retention_cleaned.csv`, `outputs/summary_statistics.csv`, and committed-ready PNG plots in `plots/`.
